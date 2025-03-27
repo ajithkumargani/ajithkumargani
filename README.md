@@ -24,6 +24,6 @@
        style="height: 200px; flex: 1 1 50%; object-fit: contain; max-width: 50%;"/>
 </div>
 
-
+![Snake animation](https://raw.githubusercontent.com/ajithkumargani/ajithkumargani/output/github-contribution-grid-snake.svg)
 
 
