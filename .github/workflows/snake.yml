@@ -16,9 +16,10 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ajithkumargani
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          outputs: dist/github-contribution-grid-snake.svg
+          
+      - name: Generate dark mode version
+        run: cp dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
 
       - name: Upload to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
